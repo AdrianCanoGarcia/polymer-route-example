@@ -79,9 +79,6 @@
                              on-tap="{{cyclePages}}">          
           
               <template repeat="{{page, i in pages}}">
-                <section hash="{{page.hash}}" layout vertical center-center>
-                  <div>{{page.component}} {{route}}</div>
-                </section>
               </template>
           
         </core-animated-pages>
